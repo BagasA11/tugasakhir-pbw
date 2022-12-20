@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Form Pendaftaran-14715</title>
+</head>
+<body>
+<link rel="stylesheet" href="daftar_style.css" type="text/css" />
+<form id="Form" class="formDaftar" name="pendaftaran">
+    <Label class="label_head">Sign Up</Label><br><br>
+    <label class="namaUser">Masukkan username</label><br>
+    <input type="text" name="Nama" id="username"><br>
+
+    <label class="EmailUser">Alamat Email</label><br>
+    <input type="email" name="emailUser" id="email_ID">
+    <br>
+    <label class="Pwd">Kata Sandi</label><br>
+    <input type="password" name="sandi" id="kunci" class="kataSandi">
+    <br>
+    <label class="confirmPwd">Konfirmasi Kata Sandi</label><br>
+    <input type="password" name="confirm" id="konfirmasiKunci" class="tanya_kataSandi">
+    <br>
+    <span>
+      <input type="checkbox" id="contekSandi" onclick="lihatSandi()" value="lihat sandi">
+      <input type="reset" value="reset" id="resetData">
+    </span><br>
+    <input type="button" value="Lanjutkan" class="check" onclick="lanjut()">
+</form>
+
+<script src="konfirmasi.js">
+</script>
+</body>
+</html>

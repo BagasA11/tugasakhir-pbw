@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    width:1500px;
+    padding-left: 20%;
+    padding-top: 10%;
+}
+form{
+    background-color: white;
+    display: inline-block;
+    width:50%;
+    height: auto;
+    
+    justify-items:  center;
+    padding-top: 10px;
+    padding-right: 100px;
+}
+
+label{
+    font-weight: bold;
+    font-size: large;
+    margin-left: 100px;
+}
+
+input{
+    width:70%;
+    height: 40px;
+    font-size: large;
+    margin: auto 10px;
+    margin-left: 100px;
+}
+
+span{
+    margin-left: 0;
+    margin-right: 200px;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+}
+
+input span #contekSandi{
+    height: 15px;
+    width: 15px;
+}
+
+[type="checkbox"]:hover
+{
+    cursor: pointer;
+}
+span #resetData{
+    width:70px;
+    font-size: medium;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 20px;
+}
+
+span #resetData:hover{
+    background-color: lightblue;
+    color: orange;
+    cursor: pointer;
+}
+
+[type="button"] {
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+    bottom: 5px;
+    font-weight: bold;
+    font-size: large;    
+}
+
+[type="button"]:hover{
+    background-color: white;
+    color: orange;
+    cursor: pointer;
+}
+    

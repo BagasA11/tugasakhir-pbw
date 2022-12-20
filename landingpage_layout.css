@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+body{
+    width:1500px;
+    height: 1200px;
+    display: grid;
+    justify-content: center;
+    align-content: fit-content;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 45% 36% 9%;
+}
+
+nav{
+    
+    grid-row: 1;
+    grid-column: 1;
+}
+
+article{
+
+    grid-row: 2;
+    grid-column: 1;
+    display: flexbox;
+    align-content: center;
+    justify-content: stretch;
+    padding-top: 40px;
+}
+
+article #gambarQuote{
+    object-fit: cover;
+    transform: translatex(80px);
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    z-index: 1;
+}
+
+article #Quote{
+    box-sizing: border-box;
+    float: right;
+    transform: translate(-460px, 40px);
+    color:darkslategray;
+    text-shadow: 1px;
+    text-align: right;
+    font-size: 14pt;
+    background-color: orange;
+    width: 30%;
+    height: 80%;
+    padding-left: 80px;
+}
+
+article #Quote #Quote_content{
+    position: absolute;
+    width: 80%;
+    right: 10px;
+}
+
+h2{
+    color: aqua;
+    font-size: 16pt;
+}
+
+section{
+    grid-row: 3;
+    grid-column: 1;
+
+    text-align: center;
+    
+}
+
+footer{
+    grid-row: 4;
+    grid-column: 1;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+
+#footText{
+    color: white;
+    column-count: 4;
+    column-gap: 5px;
+}
