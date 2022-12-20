@@ -128,7 +128,7 @@ section h3{
     color: white;
     border-radius: 45%;
     border: 4px orange solid;
-    width: 40%;
+   
     font-size: 20pt;
     max-height: 40pt;
     margin-left: 50%;
@@ -145,6 +145,7 @@ section .gallery_container{
     position: relative;
     bottom: -200px;
 }
+
 /* Pre and Next button*/
 .pre, .next {
     cursor: pointer;
