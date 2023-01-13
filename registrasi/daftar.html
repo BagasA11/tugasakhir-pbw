@@ -6,20 +6,22 @@
     <title>Form Pendaftaran-14715</title>
 </head>
 <body>
+
 <link rel="stylesheet" href="daftar_style.css" type="text/css" />
+
 <form id="Form" class="formDaftar" name="pendaftaran">
     <Label class="label_head">Sign Up</Label><br><br>
     <label class="namaUser">Masukkan username</label><br>
-    <input type="text" name="Nama" id="username"><br>
+    <input type="text" name="Nama" id="username" ><br>
 
     <label class="EmailUser">Alamat Email</label><br>
-    <input type="email" name="emailUser" id="email_ID">
+    <input type="email" name="emailUser" id="email_ID" minlength="10">
     <br>
     <label class="Pwd">Kata Sandi</label><br>
-    <input type="password" name="sandi" id="kunci" class="kataSandi">
+    <input type="password" name="sandi" id="kunci" class="kataSandi" minlength="8">
     <br>
     <label class="confirmPwd">Konfirmasi Kata Sandi</label><br>
-    <input type="password" name="confirm" id="konfirmasiKunci" class="tanya_kataSandi">
+    <input type="password" name="confirm" id="konfirmasiKunci" class="tanya_kataSandi" minlength="8">
     <br>
     <span>
       <input type="checkbox" id="contekSandi" onclick="lihatSandi()" value="lihat sandi">

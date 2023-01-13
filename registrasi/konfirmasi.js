@@ -18,10 +18,17 @@ function lihatSandi(){
 }
 
 function lanjut(){
-    if(sandi.value == tanyaSandi.value){alert("Hello");}
-    else{
+    var next = document.getElementById("nextPage");
+    //
+    if((sandi.value == tanyaSandi.value)&&(namaUser != " ")&&(alamatEmail != " "))
+    {alert("Hello");
+    location.href="../homepage/iniHomepage.html";
+    }
+
+    else if(sandi.value != tanyaSandi.value){
         alert(" Kata Sandi Mu kok beda? coba dinget2 dulu");
         
     }
+    else{alert("Anda ngawur");}
 
 }
